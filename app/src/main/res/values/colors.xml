@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_gray_bright">#33CCCCCC</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_yellow">#ff9900</color>
+
+
+
+    <!-- *** 公共文字颜色 *** -->
+    <color name="font_color_000000">#000000</color>
+    <color name="font_color_111111">#111111</color>
+    <color name="font_color_222222">#222222</color>
+    <color name="font_color_323333">#323333</color>
+    <color name="font_color_333333">#333333</color>
+    <color name="font_color_444444">#444444</color>
+    <color name="font_color_555555">#555555</color>
+    <color name="font_color_666666">#666666</color>
+    <color name="font_color_777777">#777777</color>
+    <color name="font_color_888888">#888888</color>
+    <color name="font_color_999999">#999999</color>
+    <color name="font_color_AAAAAA">#AAAAAA</color>
+    <color name="font_color_BBBBBB">#BBBBBB</color>
+    <color name="font_color_CCCCCC">#CCCCCC</color>
+    <color name="font_color_DDDDDD">#DDDDDD</color>
+    <color name="font_color_EEEEEE">#EEEEEE</color>
+    <color name="font_color_FFFFFF">#FFFFFF</color>
+    <color name="font_color_0e7b7b">#0E7B7B</color>
+    <color name="font_color_a9a9a9">#a9a9a9</color>
+    <color name="font_color_15A9A9">#15A9A9</color>
+    <color name="font_color_797979">#797979</color>
+    <color name="font_color_7a7a7a">#7a7a7a</color>
+    <color name="font_color_616162">#616162</color>
+    <color name="font_color_a5a5a5">#a5a5a5</color>
+    <color name="font_color_c9c9c9">#c9c9c9</color>
+</resources>

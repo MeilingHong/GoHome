@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_title_bar_height"
+    android:background="@color/holo_blue_light"
+    >
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="@dimen/common_title_name_width"
+        android:layout_height="@dimen/common_title_bar_height"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:text="@string/title_name"
+        android:textSize="@dimen/font_14"
+        android:gravity="center"
+        />
+    <!-- ***  Menu Item at left  *** -->
+
+    <ImageButton
+        android:id="@+id/title_menu_left_img"
+        android:layout_width="@dimen/common_title_bar_menu_height"
+        android:layout_height="@dimen/common_title_bar_menu_height"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/title_menu_left_txt"
+        android:layout_toRightOf="@id/title_menu_left_img"
+        android:layout_width="@dimen/common_title_bar_menu_height"
+        android:layout_height="@dimen/common_title_bar_menu_height"
+        android:layout_centerVertical="true"
+
+        android:text="@string/title_menu_left_txt_name"
+        android:textSize="@dimen/font_12"
+        android:textColor="@color/font_color_FFFFFF"
+        android:gravity="center"
+        />
+
+    <!-- ***  Menu Item at Right  *** -->
+
+    <ImageButton
+        android:id="@+id/title_menu_right_img"
+        android:layout_width="@dimen/common_title_bar_menu_height"
+        android:layout_height="@dimen/common_title_bar_menu_height"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/ic_launcher"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/title_menu_right_txt"
+        android:layout_toLeftOf="@id/title_menu_right_img"
+        android:layout_width="@dimen/common_title_bar_menu_height"
+        android:layout_height="@dimen/common_title_bar_menu_height"
+        android:layout_centerVertical="true"
+
+        android:text="@string/title_menu_left_txt_name"
+        android:textSize="@dimen/font_12"
+        android:textColor="@color/font_color_FFFFFF"
+        android:gravity="center"
+        />
+
+
+</RelativeLayout>
